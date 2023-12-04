@@ -1,0 +1,175 @@
+@font-face {
+    font-family: Didact Gothic ;
+    src: url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Pacifico&family=Rajdhani&family=Roboto:wght@100&family=Sansita+Swashed&family=Satisfy&family=Space+Mono&display=swap');
+}
+
+html,body{
+    height: 100%;
+    margin: 0%;
+}
+/* */
+body{
+    background-color: black ;
+    margin: 0%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul li{
+    list-style:none;
+
+}
+a{
+   text-decoration: none;
+   color: white;
+}
+/*****************************Header*********************/
+header{
+    background: #fff url('../images/header-bg.jpg') no-repeat;
+    background-size: cover;
+    margin: 0%;
+    position: relative;
+   
+}
+.container{
+    width: 1200px;
+    position: relative;
+    overflow: hidden;
+    padding: 50px;
+    display: inline-block;
+}
+/*******************LOGO***********************/
+#logo{
+    top: 3.4em;
+    left: 0;
+    position: absolute;
+}
+#logo h2{
+    font-size: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: beige;
+    padding-left: 50px;
+}
+/*********************************Menu********************/
+nav{
+    top:3.2em;
+    right: 0;
+    position: absolute;
+}
+nav ul li{
+    display: inline-flex;
+    padding-right:5px ;
+}
+nav a{
+    text-transform: uppercase ;
+}
+nav a:hover{
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 10px;
+}
+nav a:active{
+    background-color: rgb(251, 255, 7);
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+/********************************banner*******************/
+#banner{
+    text-align: center;
+    padding-top: 150px;
+
+
+}
+#banner h2{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Didact Gothic', sans-serif;
+}
+#banner span{
+    font-size: 15px;
+    color: aliceblue;
+}
+#banner a{
+    margin-top: 5em;
+    padding: 1.40em 3em;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 1em;
+    color: white;
+    background: #2651a8;
+    display: inline-block;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-family: 'Didact Gothic', Times, sans-serif;
+}
+/***********************ABOUT**************/
+#about{
+    background-color: #fff;
+    overflow: hidden;
+    margin: 0px;
+    padding: 30px;
+    color: black;
+    text-align: center;
+}
+#bloc{
+    text-align:center;
+    padding: 5px 50px;
+}
+#bloclota{
+    text-align:center;
+    padding: 5px 50px;
+}
+#bloc h3{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0%;
+
+}
+#bloc span{
+    font-size: 15px;
+    color: rgb(34, 41, 35);
+}
+#blocA,#blocB{
+    float: left;
+}
+#blocC{
+    float:right;
+}
+#blocA,#blocB,#blocC{
+    width: 380px;
+    margin-right: 8px;
+}
+#blocA a,#blocB a,#blocC a{
+    display:block;
+    background-color: blue;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 125px;
+}
+/**************************************contact***************************/
+#contact{
+    background-color: rgb(88, 19, 248);
+    overflow: hidden;
+    margin: 0px;
+    padding: 30px;
+    color: white;
+
+}
+#contact h4{
+    font-size: 30px;
+}
+#contact span,p{
+    font-size: 15px;
+}
+#contact a{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    color: #2651a8;
+    margin-top: 10px;
+    display: inline-block;
+
+}
